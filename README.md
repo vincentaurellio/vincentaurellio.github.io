@@ -16,4 +16,4 @@ Here, I want to share all of my 'projects' related to data science.
 <br>
 <br>
 
-Thanks for visitting my page :)
+Thank you for visitting my page :)
