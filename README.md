@@ -2,9 +2,7 @@
 
 ### Greetings
 Hi!
-My name is Vincent.
-I am currently a grade 12 student at Karangturi Senior High School, Semarang, Indonesia.
-Here, I want to share all of my 'projects' related to data science.
+I'm Vincent, a passionate data scientist proficient in R and python. Currently, I explore data visualisation in R with the ggplot library to get a beautiful yet meaningful charts. I am interested in machine learning as well as quantitative research so do look out in the future for projects related to those.
 
 <br>
 
