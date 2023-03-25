@@ -21,4 +21,4 @@ I'm Vincent, a passionate data scientist proficient in R and python. Currently, 
 <br>
 <br>
 
-Thank you for visitting my page :)
+Thank you for visitting my page :) 
