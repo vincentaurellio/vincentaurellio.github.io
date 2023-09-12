@@ -19,7 +19,7 @@ I'm Vincent, a passionate data scientist proficient in R and Python. Currently, 
 <hr>
 
 ![Titanic]([https://unsplash.com/photos/Bn77cbbbqOQ](https://images.unsplash.com/photo-1621943255103-1b1e3b9e2184?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1780&q=80)https://images.unsplash.com/photo-1621943255103-1b1e3b9e2184?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1780&q=80)
-[Titanic Predictions using Logistic Regression and SVM](https://vincentaurellio.github.io/assignment03.html)
+[Titanic Predictions using Logistic Regression and SVM](https://github.com/vincentaurellio/vincentaurellio.github.io/blob/main/Titanic/disaster_svm_logreg_classification.ipynb)
 
 <hr>
 <br>
