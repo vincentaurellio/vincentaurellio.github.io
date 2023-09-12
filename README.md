@@ -2,7 +2,7 @@
 
 ### Greetings
 Hi!
-I'm Vincent, a passionate data scientist proficient in R and Python. Currently, I'm exploring data visualisation tools in R with the ggplot library to get a beautiful yet meaningful charts. I'm also interested in artificial intelligence/machine learning as well as quantitative research so do look out in the future for projects related to those.
+I'm Vincent, a passionate data scientist proficient in R and Python. Currently, I'm exploring data visualisation tools with R using the ggplot library to get a beautiful yet meaningful charts. I'm also interested in artificial intelligence/machine learning as well as quantitative research so do look out in the future for projects related to those.
 
 <br>
 
