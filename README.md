@@ -20,6 +20,7 @@ I'm Vincent, a passionate data scientist proficient in R and Python. I made some
 
 ![Titanic](https://images.unsplash.com/photo-1621943255103-1b1e3b9e2184?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHRpdGFuaWN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60)
 [Titanic Predictions using Logistic Regression and SVM](https://github.com/vincentaurellio/vincentaurellio.github.io/blob/main/Titanic/disaster_svm_logreg_classification.ipynb)
+<br>
 [Report about the model for nus course project work](https://vincentaurellio.github.io/Titanic/Disaster%20Survivability%20Report.pdf)
 
 <hr>
