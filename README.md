@@ -36,10 +36,12 @@ I'm Vincent, a passionate data scientist proficient in R, SQL, and Python. I mad
 #### Investigating Impact of Adversarial Agent in Reinforcement Learning
 ![Game](https://images.unsplash.com/photo-1493711662062-fa541adb3fc8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
 [Github Link to the project](https://github.com/vincentaurellio/CS4246)
+<br>
 [Report about the results for nus course project work](https://vincentaurellio.github.io/Titanic/Disaster%20Survivability%20Report.pdf)
+
 <hr>
 
 <br>
 <br>
 
-Thank you for visitting my page
+Thank you for visitting my page!
