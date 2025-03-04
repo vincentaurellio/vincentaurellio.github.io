@@ -7,15 +7,23 @@ I'm Vincent, a passionate data scientist proficient in R, SQL, and Python. I mad
 <br>
 
 ### Projects
-#### NBA Exploratory Data Analysis
-![NBA](https://images.unsplash.com/photo-1504450758481-7338eba7524a?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8bmJhfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60)
-[Some data analysis about NBA](https://github.com/vincentaurellio/vincentaurellio.github.io/blob/b8fffc6f0488dbdef9a98202535b97647d63a090/Assignment%201.ipynb)
+#### AI Chat Survey
+![Chatbot](https://cdn.pixabay.com/photo/2019/03/21/15/51/chatbot-4071274_1280.jpg)
+[Github Link](https://github.com/vincentaurellio/ai-chat-survey)
 
 <hr>
 
-#### US Parks Data Visualisation
-![Park](https://images.unsplash.com/photo-1585938389612-a552a28d6914?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=860&q=80)
-[Data Visualisation about Parks](https://vincentaurellio.github.io/assignment03.html)
+#### Investigating Impact of Adversarial Agent in Reinforcement Learning
+![Game](https://images.unsplash.com/photo-1493711662062-fa541adb3fc8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+[Github Link to the project](https://github.com/vincentaurellio/CS4246)
+<br>
+[Report about the results for nus course project work](https://vincentaurellio.github.io/Titanic/Disaster%20Survivability%20Report.pdf)
+
+<hr>
+
+#### Spoiler Detection using NLP
+![Movie](https://images.unsplash.com/photo-1485095329183-d0797cdc5676?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+[Github Link to the project](https://github.com/vincentaurellio/CS3244/tree/main/PG-23)
 
 <hr>
 
@@ -27,17 +35,15 @@ I'm Vincent, a passionate data scientist proficient in R, SQL, and Python. I mad
 
 <hr>
 
-#### Spoiler Detection using NLP
-![Movie](https://images.unsplash.com/photo-1485095329183-d0797cdc5676?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
-[Github Link to the project](https://github.com/vincentaurellio/CS3244/tree/main/PG-23)
+#### US Parks Data Visualisation
+![Park](https://images.unsplash.com/photo-1585938389612-a552a28d6914?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=860&q=80)
+[Data Visualisation about Parks](https://vincentaurellio.github.io/assignment03.html)
 
 <hr>
 
-#### Investigating Impact of Adversarial Agent in Reinforcement Learning
-![Game](https://images.unsplash.com/photo-1493711662062-fa541adb3fc8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
-[Github Link to the project](https://github.com/vincentaurellio/CS4246)
-<br>
-[Report about the results for nus course project work](https://vincentaurellio.github.io/Titanic/Disaster%20Survivability%20Report.pdf)
+#### NBA Exploratory Data Analysis
+![NBA](https://images.unsplash.com/photo-1504450758481-7338eba7524a?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8bmJhfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60)
+[Some data analysis about NBA](https://github.com/vincentaurellio/vincentaurellio.github.io/blob/b8fffc6f0488dbdef9a98202535b97647d63a090/Assignment%201.ipynb)
 
 <hr>
 
