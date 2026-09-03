@@ -7,9 +7,9 @@ function NavBar() {
       <Container className="flex h-20 items-center justify-between">
         <Link
           to="/"
-          className="font-sans text-lg font-semibold tracking-tight"
+          className="font-sans text-xl font-semibold tracking-tight"
         >
-          Vincent Aurellio
+          Vincent Aurellio Budianto
         </Link>
 
         <nav className="flex items-center gap-8">
