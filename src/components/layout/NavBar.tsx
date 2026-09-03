@@ -21,7 +21,7 @@ function NavBar() {
           </Link>
 
           <Link
-            to="/#about"
+            to="/about"
             className="text-sm text-muted transition-colors hover:text-text"
           >
             About
