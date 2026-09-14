@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 import { projects } from "../../data/projects";
 import Container from "../layout/Container";
 import ProjectCard from "../layout/ProjectCard";
@@ -27,6 +28,14 @@ function SelectedProjects() {
           {featuredProjects.map((project) => (
             <ProjectCard key={project.slug} project={project} />
           ))}
+        </div>
+        <div className="mt-10">
+          <Link
+            to="/projects"
+            className="text-sm font-medium text-accent hover:underline"
+          >
+            View all projects →
+          </Link>
         </div>
       </Container>
     </section>
