@@ -5,7 +5,7 @@ import ProjectCard from "../components/layout/ProjectCard";
 
 function Projects() {
   return (
-    <main className="min-h-screen bg-background text-text">
+    <main>
       <Container className="py-16 sm:py-24">
         <Link
           to="/"

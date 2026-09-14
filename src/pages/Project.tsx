@@ -8,7 +8,7 @@ function Project() {
 
   if (!project) {
     return (
-      <main className="min-h-screen bg-background text-text">
+      <main>
         <Container className="py-24">
           <p className="font-mono text-sm text-muted">404</p>
 
@@ -28,7 +28,7 @@ function Project() {
   }
 
   return (
-    <main className="min-h-screen bg-background text-text">
+    <main>
       <Container className="py-16">
         <Link
           to="/#projects"
