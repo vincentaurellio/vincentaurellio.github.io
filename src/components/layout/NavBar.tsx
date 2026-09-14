@@ -14,7 +14,7 @@ function NavBar() {
 
         <nav className="flex items-center gap-8">
           <Link
-            to="/#projects"
+            to="/projects"
             className="text-sm text-muted transition-colors hover:text-text"
           >
             Work
