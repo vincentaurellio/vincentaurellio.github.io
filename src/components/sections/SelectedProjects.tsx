@@ -32,9 +32,12 @@ function SelectedProjects() {
         <div className="mt-10">
           <Link
             to="/projects"
-            className="text-sm font-medium text-accent hover:underline"
+            className="group inline-flex items-center gap-2 text-sm font-medium text-accent"
           >
-            View all projects →
+            View all projects
+            <span className="transition-transform duration-200 group-hover:translate-x-1">
+              →
+            </span>
           </Link>
         </div>
       </Container>
