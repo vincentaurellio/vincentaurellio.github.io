@@ -9,7 +9,7 @@ function Project() {
   if (!project) {
     return (
       <main>
-        <Container className="py-24">
+        <Container className="py-16 sm:py-24">
           <p className="font-mono text-sm text-muted">404</p>
 
           <h1 className="mt-4 text-3xl font-semibold tracking-tight">
@@ -17,10 +17,10 @@ function Project() {
           </h1>
 
           <Link
-            to="/"
+            to="/projects"
             className="mt-8 inline-block text-sm font-medium text-accent hover:underline"
           >
-            ← Back to home
+            ← Back to projects
           </Link>
         </Container>
       </main>
@@ -29,21 +29,21 @@ function Project() {
 
   return (
     <main>
-      <Container className="py-16">
+      <Container className="py-16 sm:py-24">
         <Link
-          to="/#projects"
+          to="/projects"
           className="font-mono text-sm text-muted transition-colors hover:text-text"
         >
-          ← Back to work
+          ← Back to projects
         </Link>
 
-        <article className="mt-16 max-w-3xl">
-          <header>
+        <article className="mt-16">
+          <header className="max-w-3xl">
             <p className="font-mono text-sm tracking-wide text-muted">
               PROJECT
             </p>
 
-            <h1 className="mt-4 text-4xl font-semibold tracking-tight">
+            <h1 className="mt-4 text-4xl font-semibold tracking-tight sm:text-5xl">
               {project.title}
             </h1>
 
@@ -67,80 +67,77 @@ function Project() {
                 href={project.github}
                 target="_blank"
                 rel="noreferrer"
-                className="mt-8 inline-block rounded-lg bg-accent px-5 py-3 text-sm font-medium text-white transition-opacity hover:opacity-90"
+                className="mt-8 inline-flex items-center gap-2 text-sm font-medium text-accent hover:underline"
               >
-                View on GitHub ↗
+                View on GitHub
+                <span>↗</span>
               </a>
             )}
           </header>
 
-          <div className="mt-20 space-y-16">
-            <section>
-              <h2 className="text-2xl font-semibold tracking-tight">
-                Overview
-              </h2>
+          <div className="mt-20 max-w-4xl space-y-20">
+            <ProjectSection title="Overview">
+              <p className="leading-8 text-muted">{project.overview}</p>
+            </ProjectSection>
 
-              <p className="mt-5 leading-8 text-muted">{project.overview}</p>
-            </section>
-
-            <section>
-              <h2 className="text-2xl font-semibold tracking-tight">
-                Technical Approach
-              </h2>
-
-              <ul className="mt-5 space-y-4">
-                {project.approach.map((item) => (
-                  <li
-                    key={item}
-                    className="relative pl-6 leading-7 text-muted before:absolute before:left-0 before:top-3 before:h-1.5 before:w-1.5 before:rounded-full before:bg-accent"
-                  >
-                    {item}
-                  </li>
-                ))}
-              </ul>
-            </section>
+            <ProjectSection title="Technical Approach">
+              <ProjectList items={project.approach} />
+            </ProjectSection>
 
             {project.results && (
-              <section>
-                <h2 className="text-2xl font-semibold tracking-tight">
-                  Results
-                </h2>
-
-                <ul className="mt-5 space-y-4">
-                  {project.results.map((item) => (
-                    <li
-                      key={item}
-                      className="relative pl-6 leading-7 text-muted before:absolute before:left-0 before:top-3 before:h-1.5 before:w-1.5 before:rounded-full before:bg-accent"
-                    >
-                      {item}
-                    </li>
-                  ))}
-                </ul>
-              </section>
+              <ProjectSection title="Results">
+                <ProjectList items={project.results} />
+              </ProjectSection>
             )}
 
             {project.lessons && (
-              <section>
-                <h2 className="text-2xl font-semibold tracking-tight">
-                  Lessons Learned
-                </h2>
-
-                <ul className="mt-5 space-y-4">
-                  {project.lessons.map((item) => (
-                    <li
-                      key={item}
-                      className="relative pl-6 leading-7 text-muted before:absolute before:left-0 before:top-3 before:h-1.5 before:w-1.5 before:rounded-full before:bg-accent"
-                    >
-                      {item}
-                    </li>
-                  ))}
-                </ul>
-              </section>
+              <ProjectSection title="Lessons Learned">
+                <ProjectList items={project.lessons} />
+              </ProjectSection>
             )}
           </div>
         </article>
       </Container>
     </main>
+  );
+}
+
+interface ProjectSectionProps {
+  title: string;
+  children: React.ReactNode;
+}
+
+function ProjectSection({
+  title,
+  children,
+}: ProjectSectionProps) {
+  return (
+    <section>
+      <h2 className="text-2xl font-semibold tracking-tight sm:text-3xl">
+        {title}
+      </h2>
+
+      <div className="mt-5">{children}</div>
+    </section>
+  );
+}
+
+interface ProjectListProps {
+  items: string[];
+}
+
+function ProjectList({ items }: ProjectListProps) {
+  return (
+    <ul className="space-y-4">
+      {items.map((item) => (
+        <li
+          key={item}
+          className="relative pl-6 leading-7 text-muted before:absolute before:left-0 before:top-3 before:h-1.5 before:w-1.5 before:rounded-full before:bg-accent"
+        >
+          {item}
+        </li>
+      ))}
+    </ul>
   );
 }
 

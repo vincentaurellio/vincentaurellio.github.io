@@ -4,6 +4,10 @@ function Hero() {
   return (
     <section className="py-16">
       <Container>
+        <div className="mb-6 inline-flex items-center gap-2 rounded-md border border-border bg-surface px-3 py-1.5 font-mono text-xs text-muted">
+          <span className="h-1.5 w-1.5 rounded-full bg-accent" />
+          THIS WEBSITE IS A WORK IN PROGRESS
+        </div>
         <div className="max-w-3xl">
           <p className="font-mono text-sm tracking-wide text-muted">
             DATA SCIENCE · QUANTITATIVE FINANCE · AI
