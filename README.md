@@ -1,73 +1,113 @@
-# React + TypeScript + Vite
+# Vincent Aurellio Budianto | Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal portfolio website for showcasing machine learning, AI, and quantitative/data science work. The site is built with React, TypeScript, Vite, and Tailwind CSS, and is designed as a clean single-page experience with a home view, project highlights, and an about section.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This portfolio presents:
 
-## React Compiler
+- a professional overview of my background in data science and analytics
+- featured projects across reinforcement learning, AI systems, and applied ML
+- a simple, readable interface for browsing technical work and project details
+- a lightweight static site structure suitable for hosting on GitHub Pages or similar hosting providers
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the ESLint configuration
+- React 19
+- TypeScript
+- Vite
+- Tailwind CSS
+- React Router
+- ESLint + Prettier
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Project Structure
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```text
+.
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── layout/
+│   │   └── sections/
+│   ├── data/
+│   ├── pages/
+│   ├── router/
+│   ├── styles/
+│   ├── App.tsx
+│   └── main.tsx
+├── index.html
+├── package.json
+├── tsconfig.json
+├── vite.config.ts
+├── eslint.config.js
+├── LICENSE
+├── README.md
+└── .gitignore
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Featured Work
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+The portfolio highlights projects such as:
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+- Adversarial Reinforcement Learning GridWorld
+- AI Chat Survey Platform
+- Malware Classification
+- Word Embeddings with LSTM
+- Denoising Diffusion Probabilistic Model
+- Pokémon Card Recognition System
+
+Project content is defined in `src/data/projects.ts` and is rendered through the routing/pages structure.
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js 18+
+- npm
+
+### Install dependencies
+
+```bash
+npm install
 ```
+
+### Run the app locally
+
+```bash
+npm run dev
+```
+
+Then open the local Vite URL shown in the terminal, typically:
+
+```text
+http://localhost:5173
+```
+
+### Build for production
+
+```bash
+npm run build
+```
+
+### Preview production build
+
+```bash
+npm run preview
+```
+
+## Available Scripts
+
+```bash
+npm run dev      # start the Vite dev server
+npm run build    # run TypeScript build and production bundle
+npm run lint     # check for ESLint issues
+npm run format   # auto-format the project with Prettier
+npm run preview  # preview the production build locally
+```
+
+## Notes
+
+- The site reflects a portfolio and personal website for data science and AI work.
+- The website is still a work in progress, which may evolve as more content is added.
+- For project or resume updates, the main content sources are under `src/pages`, `src/components`, and `src/data`.
+
