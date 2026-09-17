@@ -15,6 +15,35 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    slug: "pokemon-card-recognition",
+    title: "Pokémon Card Recognition System",
+    summary:
+      "An automated pipeline for detecting and identifying Pokémon TCG cards from video using object detection and visual embeddings.",
+    description:
+      "Building an end-to-end system that detects cards from video, extracts the sharpest crops, and identifies cards using CLIP embeddings and FAISS.",
+    tags: ["Computer Vision", "YOLO", "CLIP", "FAISS"],
+    github: "https://github.com/Richardtok/TCGLOG",
+    featured: true,
+    status: "ongoing",
+
+    overview:
+      "This project aims to automate the process of recording cards pulled from Pokémon TCG packs. The system combines object detection, image processing, and visual retrieval to detect and identify individual cards.",
+
+    approach: [
+      "Use YOLO to detect cards in video frames.",
+      "Use OpenCV to extract and track individual cards.",
+      "Select the sharpest crop for each detected card.",
+      "Generate CLIP embeddings for card images.",
+      "Use FAISS to retrieve the closest matching card from a reference dataset.",
+    ],
+
+    lessons: [
+      "Exploring how computer vision and image retrieval can be combined for fine-grained card recognition.",
+      "Learning how to build an end-to-end pipeline connecting detection, tracking, image processing, and recognition.",
+    ],
+  },
+
+  {
     slug: "adversarial-rl-gridworld",
     title: "Adversarial Reinforcement Learning GridWorld",
     summary:
@@ -162,34 +191,6 @@ export const projects: Project[] = [
     lessons: [
       "Developed an understanding of the mathematical intuition behind diffusion models.",
       "Learned how the forward and reverse diffusion processes work together for generation.",
-    ],
-  },
-
-  {
-    slug: "pokemon-card-recognition",
-    title: "Pokémon Card Recognition System",
-    summary:
-      "An automated pipeline for detecting and identifying Pokémon TCG cards from video using object detection and visual embeddings.",
-    description:
-      "Building an end-to-end system that detects cards from video, extracts the sharpest crops, and identifies cards using CLIP embeddings and FAISS.",
-    tags: ["Computer Vision", "YOLO", "CLIP", "FAISS"],
-    featured: true,
-    status: "ongoing",
-
-    overview:
-      "This project aims to automate the process of recording cards pulled from Pokémon TCG packs. The system combines object detection, image processing, and visual retrieval to detect and identify individual cards.",
-
-    approach: [
-      "Use YOLO to detect cards in video frames.",
-      "Use OpenCV to extract and track individual cards.",
-      "Select the sharpest crop for each detected card.",
-      "Generate CLIP embeddings for card images.",
-      "Use FAISS to retrieve the closest matching card from a reference dataset.",
-    ],
-
-    lessons: [
-      "Exploring how computer vision and image retrieval can be combined for fine-grained card recognition.",
-      "Learning how to build an end-to-end pipeline connecting detection, tracking, image processing, and recognition.",
     ],
   },
 ];
